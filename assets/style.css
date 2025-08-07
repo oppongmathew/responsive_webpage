@@ -1,0 +1,28 @@
+@import url('nav.css');
+@import url('hero.css');
+@import url('features.css');
+@import url('footer.css');
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #040f28;
+  width: 100%;
+  height:auto;
+  overflow-x: hidden;
+}
+
+.layout{
+    max-width: 90rem;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rgb(213, 211, 211);
+}  

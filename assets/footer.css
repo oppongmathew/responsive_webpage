@@ -1,0 +1,162 @@
+.last{
+    width: 75rem;
+    height: 16.375rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-box{
+    width: 19.875rem;
+    height: 11.875rem;
+    top: 313.375rem;
+    left: 8.875rem;
+    padding: 0.625rem;
+}
+.first-box h3{
+    font-family: Cerebri Sans;
+    font-weight: 50rem;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.first-box p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0%;
+    color: #C4C4C4;
+}
+.facebook{
+    width: 2rem;
+    height: 2rem;
+    top: 322.25rem;
+    left: 8.875rem;
+}
+.instagram{
+    width: 2rem;
+    height: 2rem;
+    top: 322.25rem;
+    left: 11.875rem;
+}
+.twitter{
+    width: 2rem;
+    height: 2rem;
+    top: 322.25rem;
+    left: 14.875rem;
+}
+.youtube{
+    width: 2rem;
+    height: 2rem;
+    top: 322.25rem;
+    left: 17.875rem;
+}
+.second-box{
+    width: 7.688rem;
+    height: 9rem;
+    top: 313.375rem;
+    left: 37.063rem;
+    color: #C4C4C4;
+}
+.second-box h5{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.second-box p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C4C4C4;
+}
+.third-box{
+    width: 6.75rem;
+    height: 9rem;
+    top: 313.375rem;
+    left: 50.625rem;
+}
+.third-box h5{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.third-box p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C4C4C4;
+}
+.forth-box{
+    width: 6.688rem;
+    height: 9rem;
+    top: 313.375rem;
+    left: 63.563rem;
+}
+.forth-box h5{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.forth-box p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C4C4C4;
+}
+.fifth-box{
+    width: 7rem;
+    height: 9rem;
+    top: 313.375rem;
+    left: 76.813rem;
+}
+.fifth-box h5{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.fifth-box p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C4C4C4;
+}
+main h5{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #C4C4C480;
+    text-align: center;
+}
