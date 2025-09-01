@@ -8,22 +8,21 @@
 </head>
 <body>
  <div class="layout">
-    <h1>Responsive Design</h1>
-
     <header>
   <nav class="navbar">
     <div class="logo">Freelancer</div>
   <div class="nav-right">
-    <ul class="nav-links">
-      <li><a href="#" style="color: white;">Home</a></li>
+    <ul class="nav-links" id="navLinks">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <li><a href="#" style="color: white;"><b>Home</b></a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#">Reviews</a></li>
       <li><a href="#">Article</a></li>
+      <li><a href="#" class="btn-register">Register</a></li>
     </ul>
-    <a href="#" class="btn-register">Register</a>
   </div>
-    <div class="menu-toggle">☰</div> <!-- Mobile menu icon -->
+    <div class="menu-toggle">&#9776</div>
   </nav>
 </header>
 
@@ -38,7 +37,7 @@
       <img src="assets/images/image1.jpg" alt="Hero Image" class="main-img">
     </div>
   </section>
-
+   <div class="features">
   <section class="feature-1">
     <div class="num1">
       <h1>258+</h1>
@@ -58,26 +57,39 @@
   </section>
      
   <section class="feature-2">
-    <h6>BEST SERVICES</h6>
-    <div class="first-two">
+  <h6>BEST SERVICES</h6>
+  <div class="first-two">
     <h3>Benefits You get when<br> using our services</h3>
     <p>While we can customize your needs plan to suit your<br> needs, most clients schedule regular interior services</p>
-    </div>
-    <div class="last-three">
+  </div>
+
+  <div class="last-three">
     <div class="best-quality">
+      <div class="title">
+        <img class="award" src="assets/images/award.jpg" alt="award">
         <h4>Best Quality</h4>
-        <p>It starts with our fun and easy<br> project questionnaire where<br> you’ll provide details.</p>
+      </div>
+      <p>It starts with our fun and easy<br> project questionnaire where<br> you’ll provide details.</p>
     </div>
+
     <div class="excellent">
+      <div class="title">
+        <img class="cap" src="assets/images/cap.jpg" alt="cap">
         <h4>Excellent Design</h4>
-        <p>After getting matched, your<br> designer will message with you<br> to collaborate on ideas.</p>
+      </div>
+      <p>After getting matched, your<br> designer will message with you<br> to collaborate on ideas.</p>
     </div>
+
     <div class="shipping">
+      <div class="title">
+        <img class="pincard" src="assets/images/pincard.jpg" alt="pincard">
         <h4>Guaranteed Shipping</h4>
-        <p>Designer incorporates feedback<br> into the final room design and<br> layout with.</p>
+      </div>
+      <p>Designer incorporates feedback<br> into the final room design and<br> layout with.</p>
     </div>
-    </div>
-  </section>
+  </div>
+</section>
+
 
   <section>
     <div class="feature-3">
@@ -168,27 +180,38 @@
     <h6>Our Pricing</h6>
     <p>available prices and cheap<br> packages</p>
     <div class="data">
-    <div class="data-1">
-      <h4>Basic</h4>
-      <h1>$12 <span class="month">/month</span></h1>
-      <p class="p">Got access only 1 day<br><br><br>Get free drinks and snacks<br><br><br>Free parking for 1 month</p>
-      <br><br><br><br><br><br>
-      <a href="#" class="btn-started">Get Started</a>
-    </div>
-    <div class="data-2">
-      <h4>Premium</h4>
-      <h1>$24 <span class="month">/month</span></h1>
-      <p class="p">Got access only 1 day<br><br><br>Get free drinks and snacks<br><br><br>Free parking for 1 month<br><br><br>private workout in a special room</p>
-      <br><br><br><br>
-      <a href="#" class="btn-started">Get Started</a>
-    </div>
-    <div class="data-3">
-      <h4>Super</h4>
-      <h1>$32 <span class="month">/month</span></h1>
-      <p class="p">Got access only 1 day<br><br><br>Get free drinks and snacks<br><br><br>Free parking for 1 year<br><br><br>private workout in a special room<br><br><br>Access to the fitness community</p>
-      <br><br>
-      <a href="#" class="btn-started">Get Started</a>
-    </div>
+
+  <div class="data-1">
+    <h4>Basic</h4>
+    <h1>$12 <span class="month">/month</span></h1>
+    <p>Got access only 1 day</p>
+    <p>Get free drinks and snacks</p>
+    <p>Free parking for 1 month</p>
+    <a href="#" class="btn-started">Get Started</a>
+  </div>
+
+  <div class="premium">
+    <h4>Premium</h4>
+    <h1>$24 <span class="month">/month</span></h1>
+    <p>Got access only 1 day</p>
+    <p>Free drinks and snacks</p>
+    <p>Free parking for 1 month</p>
+    <p>Private workout in a special room</p>
+    <a href="#" class="btn-started">Get Started</a>
+  </div>
+
+  <div class="super">
+    <h4>Super</h4>
+    <h1>$32 <span class="month">/month</span></h1>
+    <p>Got access only 1 day</p>
+    <p>Get free drinks and snacks</p>
+    <p>Free parking for 1 year</p>
+    <p>Private workout in a special room</p>
+    <p>Access to the fitness community</p>
+    <a href="#" class="btn-started">Get Started</a>
+  </div>
+
+</div>
     </div>
   </section>
 
@@ -197,41 +220,65 @@
       <h6>Subscribe Now</h6>
       <p>Subscribe to get update info from us</p>
       <div class="started">
-      <a href="#" class="btn-started">Get Started</a>
+      <a href="#" class="btn-started">Subscribe</a>
       </div>
     </div>
   </section>
+  </div>
 
-  <section class="last">
-    <div class="first-box">
-      <h3>Cartrix</h3>
-      <p>An all Design Tools offering an estimated 20 plus<br>
-       Design of range per charge for an affordable price<br>
-       is how we define but passion and persistence</p>
-       <img class="facebook" src="assets/images/Facebook.jpg" alt="icon">
-       <img class="instagram" src="assets/images/Instagram.jpg" alt="icon">
-       <img class="twitter" src="assets/images/Twitter.jpg" alt="icon">
-       <img class="youtube" src="assets/images/Youtube.jpg" alt="icon">
+  <section class="last"> 
+  <div class="first-box">
+    <h3>Cartrix</h3>
+    <p>An all Design Tools offering an estimated 20 plus<br>
+     Design of range per charge for an affordable price<br>
+     is how we define but passion and persistence</p>
+
+    <div class="social-icons">
+      <img src="assets/images/Facebook.jpg" alt="Facebook">
+      <img src="assets/images/Instagram.jpg" alt="Instagram">
+      <img src="assets/images/Twitter.jpg" alt="Twitter">
+      <img src="assets/images/Youtube.jpg" alt="Youtube">
     </div>
-    <div class="second-box">
-      <h5>Our Design</h5>
-      <p>Adobe illustration<br><br><br>Commercial Design<br><br><br>Web Development</p>
-    </div>
-    <div class="third-box">
-      <h5>Offers Finance</h5>
-      <p>Current Deals<br><br><br>Mistery Discount<br><br><br>College Discount</p>
-    </div> 
-    <div class="forth-box">
-      <h5>Design Tools</h5>
-      <p>Dealer Location<br><br><br>Build Car Price<br><br><br>Search Inventory</p>
-    </div> 
-    <div class="fifth-box">
-      <h5>Help Center</h5>
-      <p>Payment Services<br><br><br>FAQ Community<br><br><br>Terms Condition</p>
-    </div>
-  </section>
-  <h5>Copyright Cartrix 2021 All Right Reserved</h5> 
-   </main>
- </div>
+  </div>
+
+  <div class="second-box">
+    <h5>Our Design</h5>
+    <p>Adobe illustration<br><br>Commercial Design<br><br>Web Development</p>
+  </div>
+
+  <div class="third-box">
+    <h5>Offers Finance</h5>
+    <p>Current Deals<br><br>Mistery Discount<br><br>College Discount</p>
+  </div> 
+
+  <div class="forth-box">
+    <h5>Design Tools</h5>
+    <p>Dealer Location<br><br>Build Car Price<br><br>Search Inventory</p>
+  </div> 
+
+  <div class="fifth-box">
+    <h5>Help Center</h5>
+    <p>Payment Services<br><br>FAQ Community<br><br>Terms Condition</p>
+  </div>
+</section>
+<hr>
+<h5 class="footer-copy">Copyright Cartrix 2021 All Right Reserved</h5> 
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    // Toggle menu
+    if (navLinks.classList.contains('active')) {
+      navLinks.classList.remove('active');
+      menuToggle.innerHTML = '&#9776;'; // Hamburger icon
+    } else {
+      navLinks.classList.add('active');
+      menuToggle.innerHTML = '&times;'; // Close icon
+    }
+  });
+</script>
+
 </body>
 </html>

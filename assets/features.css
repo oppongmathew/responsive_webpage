@@ -1,312 +1,175 @@
-.feature-1{
-    width: 80rem;
-    height: 19.813rem;
-    top: 51.563rem;
-    background: #FFFFFF;
-    display: flex;
-    justify-content: space-evenly;
-}
-.num1{
-    width: 10rem;
-    height: 8.875rem;
-    top: 5.625rem;
-    left: 37.563rem;
-}
-.num1 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-size: 4rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    text-align: center;
-    color: #070707;
-}
-.num1 h3{
-    font-family: DM Sans;
-    font-weight: 43.75rem;
-    font-size: 1.125rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #070707;
-}
-.num1 p{
-    font-family: DM Sans;
-    font-weight: 25rem;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #C4C4C4;
-}
-.num2{
-    width: 10rem;
-    height: 8.875rem;
-    top: 5.625rem;
-    left: 37.563rem;
-}
-.num2 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-size: 4rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    text-align: center;
-    color: #070707;
-}
-.num2 h3{
-    font-family: DM Sans;
-    font-weight: 43.75rem;
-    font-size: 1.125rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #070707;
-}
-.num2 p{
-    font-family: DM Sans;
-    font-weight: 25rem;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #C4C4C4;
-}
-.num3{
-    width: 10.625rem;
-    height: 8.875rem;
-    top: 5.625rem;
-    left: 61.25rem;
-}
-.num3 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-size: 4rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    text-align: center;
-    color: #070707;
-}
-.num3 h3{
-    font-family: DM Sans;
-    font-weight: 43.75rem;
-    font-size: 1.125rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #070707;
-}
-.num3 p{
-    font-family: DM Sans;
-    font-weight: 25rem;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: -0.5%;
-    color: #C4C4C4;
+.feature-1 {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
 }
 
-.first-two{
-    display: flex;
+
+@media (min-width: 769px) {
+  .feature-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80rem; 
+    height: auto;
+  }
 }
-.last-three{
-    display: flex;
+
+.feature-1 .num1,
+.feature-1 .num2,
+.feature-1 .num3 {
+  flex: 1;
+  min-width: 200px;
 }
-.feature-2{
-    width: 75rem;
-    height: 27.813rem;
-    top: 80.75rem;
-    left: 7.375rem;
-    border: 0.063rem solid #050e27;
-    color: #ffffff;
-    margin: 2rem;
-    margin-left: 4rem;
+
+.feature-1 h1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 8px;
 }
-.feature-2 h6{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: 0.063rem;
-    text-transform: uppercase;
-    color: rgb(133, 131, 131);
-    padding-top: -0.313rem;
+
+.feature-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #070707;
+  margin-bottom: 4px;
+}
+
+.feature-1 p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #787575;
+}
+
+
+.feature-2 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(133, 131, 131);
 }
 .feature-2 h3{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
+    font-family: Ubuntu, sans-serif;
     font-size: 2.5rem;
-    line-height: 3.75rem;
-    letter-spacing: -0.031rem;
-    text-transform: capitalize;
-    padding-top: -0.10rem;
-}
-.feature-2 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1rem;
-    line-height: 180%;
-    letter-spacing: 0rem;
-    color: rgb(133, 131, 131);
-    padding-left: 25rem;
-    padding-top: 4rem;
-}
-.best-quality h4{
-    padding-left: 2rem;
-}
-.best-quality p{
-    padding-left: 2rem;
-    padding-top: 0.10rem;
+    line-height: 3rem;
+    color: white;
+    margin: 1rem 0;
 }
 
-.excellent h4{
-    padding-left: 15rem;
+.feature-2 h4 {
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: 1rem;   
 }
-.excellent p{
-    padding-left: 15rem;
-    padding-top: 0.10rem;
-}
-.shipping h4{
-    padding-left: 15rem;
-}
-.shipping p{
-    padding-left: 15rem;
-    padding-top: 0.10rem;
-}
-.feature-3{
-    width: 75rem;
-    height: 63.688rem;
-    margin-left: 2rem;
-}
-.text{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 2.25rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #ffffff;
-    text-align: center;
 
+.feature-2 h6 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(133, 131, 131);
 }
-.text-2{
-    font-family: Ubuntu;
-    font-weight: 31.25rem;
-    font-style: Medium;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: rgb(133, 131, 131);
+
+
+.first-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap; /* keeps it mobile-friendly */
+}
+
+.first-two h3 {
+  flex: 1;
+  text-align: left;  
+}
+
+.first-two p {
+  flex: 1;
+  text-align: right; 
+}
+
+.last-three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px; 
+}
+
+.last-three div {
+  flex: 1;
+  text-align: center;
+}
+
+.last-three img {
+  width: 40px;
+  height: 40px;
+}
+
+.last-three h4 {
+  margin-bottom: 15px; 
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .first-two {
+    flex-direction: column;
     text-align: center;
-}
-.feature-3{
-    margin-left: 1.5rem;
-}
-.cards{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     gap: 2rem;
-     width: 100%;
-}
-.card-1{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 119.063rem;
-    left: 6.063rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
+  }
+  
+  .first-two h3,
+  .first-two p {
     text-align: center;
+    margin: 10px 0;
+  }
+
+  .last-three {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
-.card-1 .img1{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
+
+.feature-3 {
+  max-width: 1200px;
+  margin: 3rem auto;
 }
-.card-1 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 1rem;
+
+.text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.25rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
-.card-1 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #272727;
-    text-align: center;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
+
+.text-2 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  margin-bottom: 2rem;
 }
-.cards .card-2{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 119.063rem;
-    left: 44.813rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
-    text-align: center;
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
-.card-2 .img2{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
-}
-.card-2 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 1rem;
-}
-.card-2 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #272727;
-    text-align: center;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-}
-.cards .card-3{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 138.25rem;
-    left: 6.063rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
-    text-align: center;
-}
-.card-3 .img3{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
-}
-.card-3 h1{
+.cards h1{
     font-family: Ubuntu;
     font-weight: 43.75rem;
     font-style: Bold;
@@ -314,243 +177,110 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: #000000;
-    padding-left: 1rem;
 }
-.card-3 p{
+
+.cards p{
     font-family: Ubuntu;
     font-weight: 25rem;
     font-style: Regular;
     font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
     color: #272727;
     text-align: center;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-}
-.cards .card-4{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 138.25rem;
-    left: 44.813rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
-    text-align: center;
-}
-.card-4 .img4{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
-}
-.card-4 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 1rem;
-}
-.card-4 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #272727;
-    text-align: center;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-}
-.cards .card-5{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 157.438rem;
-    left: 6.063rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
-    text-align: center;
-}
-.card-5 .img5{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
-}
-.card-5 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 1rem;
-}
-.card-5 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #272727;
-    text-align: center;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
-}
-.cards .card-6{
-    width: 36.25rem;
-    height: 16.688rem;
-    top: 157.438rem;
-    left: 44.813rem;
-    border-radius: 0.938rem;
-    background-color: #ffffff;
-    border: 0.125rem solid #ffffff;
-    padding-bottom: 1rem;
-    display: flex;
-    text-align: center;
-}
-.card-6 .img6{
-    width: 5rem;
-    height: 5rem;
-    top: 120.563rem;
-    left: 9.063rem;
-    padding-left: 1rem;
-}
-.card-6 h1{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 1.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 1rem;
-}
-.card-6 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 1.125rem;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #272727;
-    text-align: center;
-    padding-left: 2rem;
     padding-top: 1.5rem;
 }
 
-.feature-4{
-    width: 75rem;
-    height: 53.75rem;
-    margin-left: 1.2rem;
-    border-radius: 0.75rem;
-    border: 0.125rem solid #040f28;
+.cards > div {
+  background: #ffffff;
+  border-radius: 0.938rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
 }
-.feature-4 h3{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 2.5rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 3rem;
+
+.cards img {
+  width: 4rem;
+  height: 4rem;
 }
-.feature-4 p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-style: Regular;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    letter-spacing: 0%;
-    text-align: center;
-    color: rgb(133, 131, 131);
+
+
+.feature-4 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border: 0.125rem solid #040f28;
+  border-radius: 0.75rem;
 }
-.flowers{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 2rem;
-    width: 100%;
+
+.feature-4 h3 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5rem;
 }
-.flower-1{
-    width: 36.75rem;
-    height: 20rem;
-    top: 193.25rem;
-    left: 7.5rem;
-    border-radius: 1.875rem;
+
+.feature-4 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  margin-bottom: 2rem;
 }
-.flower-2{
-    width: 36.75rem;
-    height: 20rem;
-    top: 193.25rem;
-    left: 45.75rem;
-    border-radius: 1.875rem;
+
+.flowers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
-.flower-3{
-    width: 36.75rem;
-    height: 20rem;
-    top: 214.75rem;
-    left: 7.5rem;
-    border-radius: 1.875rem;
+
+.flowers img {
+  width: 100%;
+  border-radius: 1rem;
 }
-.flower-4{
-    width: 36.75rem;
-    height: 20rem;
-    top: 214.75rem;
-    left: 45.75rem;
-    border-radius: 1.875rem;
+
+
+.feature-5 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 0.125rem solid #040f28;
+  text-align: center;
 }
-.feature-5{
-    width: 61.25rem;
-    height: 43.938rem;
-    margin-left: 9rem;
-    border: 0.125rem solid #040f28;
-    padding-left: 1.25rem;
-    padding-bottom: 3rem;
+
+.feature-5 h6 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
 }
-.data{
-     display: flex;
-     justify-content: space-evenly;
+
+.feature-5 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
 }
-.data-1 a{
-  width: 10.313rem;
-  height: 3.375rem;
-  top: 276.188rem;
-  left: 18.625rem;
-  color: #000000;
-  margin-left: 5rem;
-  background: #FFFFFF;
-  border-radius: 3.125rem;
-  border: 0.075rem solid #272727 
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
-.data-1{
-    background-color: #ffffff;
+
+.data > div {
+  background: #ffffff;
+  width: 18rem;
+  border-radius: 0.938rem;
+  padding: 1.5rem;
+  text-align: center;
 }
-.data-1 h4{
-    font-family: Ubuntu;
-    font-weight: 44.313rem;
-    font-style: Bold;
-    font-size: 1.25rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 2rem;
+
+.data h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
+
 .month{
     font-family: Ubuntu;
     font-weight: 25rem;
@@ -559,189 +289,187 @@
     letter-spacing: 0%;
     color: #272727;
 }
-.data-1 h1{
+
+.data h1 {
     font-family: Ubuntu;
     font-weight: 31.25rem;
     font-size: 3rem;
     line-height: 100%;
     letter-spacing: 0%;
     color: #000000;
-}
-.data-1 .p{
-    font-family: Ubuntu;
-    font-weight: 25rem;
-    font-size: 0.875rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #272727;
+    margin-bottom: 1rem;
 }
 
-.data-2 a{
-  width: 10.313rem;
-  height: 3.375rem;
-  top: 276.188rem;
-  left: 18.625rem;
-  color: #ffffff;
-  margin-left: 5rem;
-  background: #4CAF50;
-  border-radius: 3.125rem;
-  border: 0.075rem solid #4CAF50; 
-}
-.data-2{
-    background-color: #ffffff;
-}
-.data-2 h4{
-    font-family: Ubuntu;
-    font-weight: 44.313rem;
-    font-style: Bold;
-    font-size: 1.25rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 2rem;
-}
-.data-2 h1{
-    font-family: Ubuntu;
-    font-weight: 31.25rem;
-    font-size: 3rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-}
-.data-2 .p{
+.data .p {
     font-family: Ubuntu;
     font-weight: 25rem;
     font-size: 0.875rem;
     line-height: 100%;
     letter-spacing: 0%;
     color: #272727;
+    margin-bottom: 1.5rem;
 }
 
-.data-3 a{
-  width: 10.313rem;
-  height: 3.375rem;
-  top: 276.188rem;
-  left: 18.625rem;
-  color: #000000;
-  margin-left: 5rem;
-  background: #FFFFFF;
-  border-radius: 3.125rem;
-  border: 0.075rem solid #272727 
+.data {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
 }
-.data-3{
-    background-color: #ffffff;
-}
-.data-3 h4{
-    font-family: Ubuntu;
-    font-weight: 44.313rem;
-    font-style: Bold;
-    font-size: 1.25rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-    padding-left: 2rem;
-}
-.data-3 h1{
-    font-family: Ubuntu;
-    font-weight: 31.25rem;
-    font-size: 3rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #000000;
-}
-.data-3 .p{
+.data-1 p{
     font-family: Ubuntu;
     font-weight: 25rem;
     font-size: 0.875rem;
     line-height: 100%;
     letter-spacing: 0%;
     color: #272727;
+    margin-bottom: 1.5rem;
 }
-.feature-5 h6{
-    font-family: Ubuntu;
-    font-weight: 31.25rem;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #FFFFFF;
+
+.data h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.data h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.data .month {
+  font-size: 1rem;
+  color: gray;
+}
+
+/* Premium + Super checked list */
+.premium p,
+.super p {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Circle check */
+.premium p::before,
+.super p::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: black;
+  color: rgb(245, 243, 243);
+  font-size: 0.4rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn-started {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Premium button red */
+.premium .btn-started {
+  background: red;
+  color: white;
+  margin-top: 50px;
+}
+.data-1 .btn-started{
+    margin-top: 55px;
+}
+.feature-6 .btn-started{
+    background: red;
+    color: white;
+}
+
+/* Basic & Super buttons white */
+.data-1 .btn-started,
+.super .btn-started {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.feature-6 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.feature-6 h6 {
+  font-size: 1rem;
+  color: #9b9a9a;
+}
+
+.feature-6 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #212226;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .feature-2, .feature-3, .feature-4, .feature-5, .feature-6 {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .feature-2 h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .feature-2 p {
+    padding: 0;
     text-align: center;
-    padding-top: 3rem;
-}
-.feature-5 p{
-    font-family: Ubuntu;
-    font-weight: 31.25rem;
-    font-size: 2.5rem;
-    line-height: 3.125rem;
-    letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFF;
-}
-.data-1{
-    width: 18.75rem;
-    height: 28.125rem;
-    top: 254.438rem;
-    left: 14.375rem;
-    border: 0.125rem solid #ffffff;
-    border-radius: 0.938rem;
-}
-.data-2{
-    width: 18.75rem;
-    height: 28.125rem;
-    top: 254.438rem;
-    left: 35.625rem;
-    border: 0.125rem solid #ffffff;
-    border-radius: 0.938rem;
-}
-.data-3{
-    width: 18.75rem;
-    height: 28.125rem;
-    top: 254.438rem;
-    left: 56.875rem;
-    border: 0.125rem solid #ffffff;
-    border-radius: 0.938rem;
-}
-.feature-6{
-    width: 80rem;
-    height: 16.5rem;
-    top: 293.313rem;
-    background: #FFFFFF;
-}
-.feature-6 h6{
-    font-family: Cerebri Sans;
-    font-weight: 37.5rem;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #9b9a9a;
-    text-align: center;
-    padding-top: 1rem;
-}
-.feature-6 p{
-    font-family: Ubuntu;
-    font-weight: 43.75rem;
-    font-style: Bold;
-    font-size: 2.5rem;
-    line-height: 4rem;
-    letter-spacing: 0%;
-    color: #212226;
-    text-align: center;
-}
-.btn-started{
-    width: 10.563rem;
-    height: 3.813rem;
-    justify-content: space-between;
-    top: 303.5rem;
-    left: 38.375rem;
-    border-radius: 5.438rem;
-    padding-top: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    background: linear-gradient(0deg, #4CAF50, #4CAF50),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    text-decoration: none;
-    color: #ffffff;
-}
-.started{
-    text-align: center;
+  }
+
+  .last-three {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .flowers {
+    grid-template-columns: 1fr;
+  }
+
+  .data {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .data > div {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .feature-5 p {
+    font-size: 1.5rem;
+  }
+
+  .feature-6 p {
+    font-size: 1.5rem;
+  }
 }

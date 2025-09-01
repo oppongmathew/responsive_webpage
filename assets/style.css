@@ -3,6 +3,40 @@
 @import url('features.css');
 @import url('footer.css');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+section {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;     
+  padding: 0 15px;    
+  box-sizing: border-box;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  section,
+  .first-two,
+  .last-three {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-three {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .last-three img {
+    margin: 0 auto;
+ }
+}
+
 
 body {
   font-family: Arial, sans-serif;
@@ -26,3 +60,8 @@ h1{
     text-align: center;
     color: rgb(213, 211, 211);
 }  
+hr {
+  border: none;           
+  border-top: 1px solid  #e1dcdc80; 
+  margin: 20px 0;         
+}
