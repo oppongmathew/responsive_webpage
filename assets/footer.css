@@ -84,7 +84,6 @@
   margin: 1rem 0;
 }
 
-/* Responsive: Mobile View */
 @media (max-width: 768px) {
   .last {
     flex-direction: column;
