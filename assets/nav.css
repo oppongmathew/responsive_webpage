@@ -23,12 +23,12 @@
 }
 
 .nav-links a:hover {
-  color: #f4361d;
+  color: #f9442c;
 }
 
 .btn-register{
   text-decoration: none;
-  color:  #ffffff;
+  color:  #f9f3f3;
   border: 0.125rem solid #ffffff;
   border-radius: 3.125rem;
   font-weight: bold;
