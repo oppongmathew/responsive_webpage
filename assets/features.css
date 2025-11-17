@@ -136,7 +136,10 @@
 .feature-2 h6 {
   font-family: Ubuntu, sans-serif;
   font-size: 1rem;
-  color: rgb(133, 131, 131);
+  color:#FFFFFF;
+}
+.feature-2 p{
+  color: #FFFFFF;
 }
 
 .first-two {
@@ -176,6 +179,9 @@
 .feature-3 {
   max-width: 1200px;
   margin: 3rem auto;
+}
+.feature-3 h5{
+  color: #FFFFFF;
 }
 
 .text {
@@ -437,7 +443,7 @@
 
 /* Premium button red */
 .premium .btn-started {
-  background: red;
+  background: #FC3867;
   color: white;
   margin-top: 50px;
 }
@@ -475,6 +481,9 @@
   font-size: 2rem;
   color: #212226;
   margin: 1rem 0;
+}
+.feature-6 .btn-started{
+  background-color: #FC3867;
 }
 
 @media (max-width: 768px) {
