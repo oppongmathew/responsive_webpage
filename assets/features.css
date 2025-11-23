@@ -188,6 +188,13 @@
   font-family: Ubuntu, sans-serif;
   font-size: 2.25rem;
   color: #ffffff;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.text-1{
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.25rem;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 0.5rem;
 }
@@ -221,7 +228,7 @@
     font-style: Regular;
     font-size: 1.125rem;
     color: #272727;
-    text-align: center;
+    text-align: left;
     padding-top: 1.5rem;
 }
 
@@ -357,11 +364,13 @@
     margin-bottom: 1rem;
 }
 
-.data .p {
+.data p {
     font-family: Ubuntu;
     font-weight: 25rem;
     font-size: 0.875rem;
     line-height: 100%;
+    padding-left: 1.5rem;
+    text-align: left;
     letter-spacing: 0%;
     color: #272727;
     margin-bottom: 1.5rem;
@@ -385,11 +394,13 @@
 }
 
 .data h4 {
+  text-align: left;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 .data h1 {
+   text-align: left;
   font-size: 2rem;
   margin-bottom: 20px;
 }
