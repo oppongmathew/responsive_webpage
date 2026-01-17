@@ -1,0 +1,620 @@
+.feature-1 {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+@media (min-width: 769px) {
+  .feature-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80rem; 
+    height: auto;
+  }
+}
+
+.feature-1 .num1,
+.feature-1 .num2,
+.feature-1 .num3 {
+  flex: 1;
+  min-width: 200px;
+}
+
+.feature-1 h1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 8px;
+}
+
+.feature-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #070707;
+  margin-bottom: 4px;
+}
+
+.feature-1 p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120%;
+  color: #787575;
+}
+
+.feature-2 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(133, 131, 131);
+}
+.feature-2 h3{
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.last-three {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.last-three > div {
+  flex: 1;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;  
+  gap: 1rem;
+}
+
+.item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.item .text h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.4rem;
+}
+
+.item .text p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: rgb(133, 131, 131);
+}
+
+.last-three > div:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 1px;
+  height: 80%;
+  background: grey;
+}
+
+@media (max-width: 768px) {
+  .last-three {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .last-three > div::after {
+    display: none; 
+  }
+
+  .item {
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+.feature-2 h6 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color:#FFFFFF;
+}
+.feature-2 p{
+  color: #FFFFFF;
+}
+
+.first-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap; 
+}
+
+.first-two h3 {
+  flex: 1;
+  text-align: left;  
+}
+
+.first-two p {
+  flex: 1;
+  text-align: right; 
+}
+
+@media (max-width: 768px) {
+  .first-two {
+    flex-direction: column;
+    text-align: center;
+  }
+  .feature-1{
+    display: none;
+  }
+  
+  .first-two h3,
+  .first-two p {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+.feature-3 {
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+.feature-3 h5{
+  color: #FFFFFF;
+}
+
+.text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.25rem;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.text-1{
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.25rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.text-2 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.cards h1{
+    font-family: Ubuntu;
+    font-weight: 43.75rem;
+    font-style: Bold;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.cards p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-style: Regular;
+    font-size: 1.125rem;
+    color: #272727;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.cards > div {
+  background: #ffffff;
+  border-radius: 0.938rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cards img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.feature-4 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border: 0.125rem solid #040f28;
+  border-radius: 0.75rem;
+}
+
+.feature-4 h3 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.feature-4 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.flowers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.flowers img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.flowers img:hover {
+  transform: scale(1.1);   
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 768px) {
+  .flowers {
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+  }
+
+  .flowers img:hover {
+    transform: scale(1.05); 
+  }
+}
+
+.feature-5 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 0.125rem solid #040f28;
+  text-align: center;
+}
+
+.feature-5 h6 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.feature-5 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.data > div {
+  background: #ffffff;
+  width: 18rem;
+  border-radius: 0.938rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.data h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.month{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #272727;
+}
+
+.data h1 {
+    font-family: Ubuntu;
+    font-weight: 31.25rem;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.data p {
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-size: 0.875rem;
+    line-height: 100%;
+    padding-left: 1.5rem;
+    text-align: left;
+    letter-spacing: 0%;
+    color: #272727;
+    margin-bottom: 1.5rem;
+}
+
+.data {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.data-1 p{
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #272727;
+    margin-bottom: 1.5rem;
+}
+
+.data h4 {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.data h1 {
+   text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.data .month {
+  font-size: 1rem;
+  color: gray;
+}
+
+/* Premium + Super checked list */
+.premium p,
+.super p {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Circle check */
+.premium p::before,
+.super p::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: black;
+  color: rgb(245, 243, 243);
+  font-size: 0.4rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn-started {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Premium button red */
+.premium .btn-started {
+  background: #FC3867;
+  color: white;
+  margin-top: 50px;
+}
+.data-1 .btn-started{
+    margin-top: 55px;
+}
+.feature-6 .btn-started{
+    background: red;
+    color: white;
+}
+
+/* Basic & Super buttons white */
+.data-1 .btn-started,
+.super .btn-started {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.feature-6 {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+.feature-6 h6 {
+  font-size: 1rem;
+  color: #9b9a9a;
+}
+
+.feature-6 p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2rem;
+  color: #212226;
+  margin: 1rem 0;
+}
+.feature-6 .btn-started{
+  background-color: #FC3867;
+}
+
+@media (max-width: 768px) {
+  .feature-2, .feature-3, .feature-4, .feature-5, .feature-6 {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .feature-2 h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .feature-2 p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .last-three {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .flowers {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-5 p {
+    font-size: 1.5rem;
+  }
+
+  .feature-6 p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .data p{
+    font-size: 1rem;
+  }
+  
+  .feature-5 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;           
+    padding: 1rem !important;       
+    box-sizing: border-box;
+  }
+
+  .feature-5 .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .feature-5 .data > div {
+    width: 100% !important;
+    max-width: 360px;                
+    margin: 0 auto;                 
+    padding: 1.25rem;
+    border-radius: 14px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .feature-5 h4,
+  .feature-5 h1,
+  .feature-5 p {
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .feature-5 .btn-started {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 999px;
+    padding: 0.75rem 1.25rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-6 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;       
+    box-sizing: border-box;
+    text-align: center;          
+  }
+
+  .feature-6 > div {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .feature-6 h6,
+  .feature-6 p {
+    margin: 0.5rem 0;
+  }
+
+  .feature-6 .btn-started {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 999px;
+    padding: 0.75rem 1.5rem;
+  }
+}

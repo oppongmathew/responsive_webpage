@@ -1,0 +1,130 @@
+.hero {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; 
+  }
+
+  .hero-image {
+    order: 1; 
+  }
+
+  .hero-content {
+    order: 2; 
+    text-align: center; 
+    margin-top: 15px;   
+  }
+
+  .hero-image img {
+    width: 100%; 
+    height: auto;
+  }
+
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem; 
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;  
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Mobile view override */
+@media (max-width: 768px) {
+  .btn-primary {
+    background: white;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    padding: 1rem;
+    border-radius: 50px;
+    display: inline-block;
+  }
+}
+
+
+.hero-image img {
+  top: 10.563rem;
+  left: 47.25rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tablet/Desktop view */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row; 
+    justify-content: space-between;
+    text-align: left;
+    padding: 4rem;
+  }
+  .hero img {
+    width: 450px;
+    height: 500px;
+}
+.btn-primary {
+  display: inline-block;
+  background: rgb(254, 252, 252);
+  color: rgb(45, 43, 43);
+  margin-left: 7rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5.438rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  .hero-content {
+    max-width: 50%;
+  }
+
+  .hero-content h1 {
+    font-family: Ubuntu;
+    font-weight: 43.75rem;
+    font-style: Bold;
+    font-size: 3.5rem;
+    line-height: 4.65rem;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #C4C4C4;
+;
+
+  }
+
+  .hero-content p {
+    font-family: Ubuntu;
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    color: #646464;
+  }
+
+}
+.hero-content .btn-primary{
+  background-color: #FC3867;
+  color: #FFFFFF;
+}

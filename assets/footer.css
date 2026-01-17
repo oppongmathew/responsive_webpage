@@ -1,0 +1,109 @@
+.last {
+  width: 100%;
+  max-width: 75rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.first-box {
+  width: 19rem;
+  padding: 0.625rem;
+}
+
+.first-box h3 {
+  font-family: Cerebri Sans, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.first-box p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #C4C4C4;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-icons img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;   
+  object-fit: cover;    
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Other footer boxes */
+.second-box,
+.third-box,
+.forth-box,
+.fifth-box {
+  width: 7rem;
+}
+
+.second-box h5,
+.third-box h5,
+.forth-box h5,
+.fifth-box h5 {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.second-box p,
+.third-box p,
+.forth-box p,
+.fifth-box p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 0.875rem;
+  color: #C4C4C4;
+  line-height: 1.5rem;
+}
+
+/* Copyright */
+.footer-copy {
+  font-family: Ubuntu, sans-serif;
+  font-size: 0.875rem;
+  color: #e1dcdc80;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .last {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .first-box, 
+  .second-box,
+  .third-box,
+  .forth-box,
+  .fifth-box {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+.footer{
+  background-color: black;
+}
